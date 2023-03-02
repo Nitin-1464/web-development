@@ -1,3 +1,7 @@
+body{
+    padding: 10px;
+    border: center;
+}
 table{
     border-collapse: collapse;
    margin: 0;
@@ -6,7 +10,17 @@ table{
 td{
     width: 30px;
     height: 30px;
-    text-align: ;
-    vertical-align: ;
-    border: 1px solid rgb(232, 127, 89);
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid rgb(232 127 86 / 45%);
+}
+.game{
+    color: rgb(133, 87, 133);
+    box-sizing: border-box;
+    height: 30px;
+    top: 10px;
+
+}
+.blue{
+    color: olivedrab;
 }

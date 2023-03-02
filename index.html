@@ -1,23 +1,34 @@
 <!DOCTYPE html>
-<html lang="eb-US">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Tic-Tac-Toe</title>
         <link rel="stylesheet" href="./style.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("#div1").toggleClass("blue");
+                });
+            });
+        </script>
+        
     </head>
     <body>
         <!--Tic-Tac-Toe game-->
-        <div>Tic-Tac-Toe game</div>
-        <div class="container">
-       <table border="1">
+        <div class="game">Tic-Tac-Toe game</div>
+        <div class="container" id="div1">
+            
+       <table  >
         <tr>
-            <td id="1"></td>
+            <td id="1" ></td>
             <td id="2"></td>
             <td id="3"></td>
         </tr>
-        <tr>
+        <tr >
             <td id="4"></td>
             <td id="5"></td>
             <td id="6"></td>
@@ -29,5 +40,7 @@
         </tr>
        </table>
     </div>
-    </body>
+    <button>restart </button>
+ 
+</body>
 </html>
