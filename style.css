@@ -1,0 +1,29 @@
+/*strutrch*/
+*{
+    -webkit-tap-higliht-color:transparent;
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    padding: 0;
+
+}
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+symbol {
+    overflow: hidden;
+}
+/*body text color*/
+body{
+    color: var(--text black);
+    min-width: 320px;
+}
+/*video card*/
+.card-video{
+    position: absolute;
+    z-index: 2;
+}
+a{
+    color: inherit;
+}
