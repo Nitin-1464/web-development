@@ -1,0 +1,12 @@
+table{
+    border-collapse: collapse;
+   margin: 0;
+}
+/*border */
+td{
+    width: 30px;
+    height: 30px;
+    text-align: ;
+    vertical-align: ;
+    border: 1px solid rgb(232, 127, 89);
+}
