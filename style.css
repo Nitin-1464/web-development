@@ -1,27 +1,26 @@
 body{
     padding: 10px;
     border: center;
+    background: linear-gradient(135deg, #8052ec, #d161ff);
 }
 table{
     border-collapse: collapse;
    margin: 0;
+  
 }
+
+
+
 /*border */
-td{
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    vertical-align: center;
-
-}
-.game{
-    color: rgb(133, 87, 133);
-    box-sizing: border-box;
-    height: 30px;
-    top: 10px;
-
-}
-
 input{
-    border-radius: 10px;
+    border-radius: 50%;
+    padding: 20px; 
+  width: 50px;
+  height: 25px;
+  text-align: center;
+    vertical-align: center;
+}
+button{
+    position: absolute;
+    padding: 0px;
 }
