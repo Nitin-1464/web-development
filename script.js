@@ -14,7 +14,8 @@ let winningPattern = [
   let count = 0;
 
   /*button click rapeat*/
-  function myFunction() {
-    alert("The form was reset");
-  }
-
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("#div1").empty();
+    });
+  });
