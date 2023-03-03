@@ -12,7 +12,7 @@ td{
     height: 30px;
     text-align: center;
     vertical-align: center;
-    border: 1px solid rgb(232 127 86 / 45%);
+
 }
 .game{
     color: rgb(133, 87, 133);
@@ -21,6 +21,7 @@ td{
     top: 10px;
 
 }
-.blue{
-    color: olivedrab;
+
+input{
+    border-radius: 10px;
 }
