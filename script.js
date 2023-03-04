@@ -28,7 +28,7 @@
     document.querySelector('.info').value = boxtext[e[0]].value + "Win"
     isgame  = true
     
-    if(turn > false){
+    if(turn = false){
       alert(" you are win")
     }
     else{
