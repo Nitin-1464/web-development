@@ -29,10 +29,10 @@
     isgame  = true
     
     if(turn > false){
-      alert("win")
+      alert(" you are win")
     }
     else{
-      alert("Best tray")
+      alert("Best next time ")
     }
     }
   })
