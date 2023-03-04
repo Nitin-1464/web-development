@@ -26,9 +26,9 @@
    if (( boxtext[e[0]].value ===  boxtext[e[1]].value) && 
     ( boxtext[e[2]].value ===  boxtext[e[1]].value) && ( boxtext[e[0]].value !== "")){
     document.querySelector('.info').value = boxtext[e[0]].value + "Win"
-    isgame  = true
+    isgame  = turn
     
-    if(turn = false){
+    if(turn == false){
       alert(" you are win")
     }
     else{

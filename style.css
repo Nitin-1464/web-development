@@ -1,4 +1,8 @@
-center{
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
     padding: 30px;
     border: center;
     background: linear-gradient(135deg, #8052ec, #d161ff);
@@ -37,5 +41,6 @@ input{
     vertical-align: center;
 }
 h1{
+   
     color: brown;
 }
