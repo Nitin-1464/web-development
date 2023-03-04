@@ -19,3 +19,18 @@ let winningPattern = [
       $("#div1").empty();
     });
   });
+  /*element*/
+ 
+  let current = 0;
+  function change(event){
+    if(current == 0){
+      event.value = "X";    
+      current = 1;
+      document.getElementById(event.id).disabled = true;
+    }
+    else{
+      event.value = "O";
+      document.getElementById(event.id).disabled = true;
+      current = 0 ;
+    }
+  }
