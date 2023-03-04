@@ -19,8 +19,20 @@ input{
   height: 25px;
   
 }
-#div1{
+.boxtext{
     justify-content: center;
     align-items: center;
     font-size: 27px;
+}
+.box:hover{
+    background-color: #d161ff;
+}
+#reset{
+    position: absolute;
+    border-radius: 50%; 
+    padding: 0px;
+     width: 80px; 
+     height: 50px; 
+     text-align: center; 
+    vertical-align: center;
 }
