@@ -13,24 +13,8 @@ let winningPattern = [
   let xTurn = true;
   let count = 0;
 
-  /*button click rapeat*/
-  $(document).ready(function(){
-    $("button").click(function(){
-      $("#div1").empty();
-    });
-  });
-  /*element [0, 1, 2],*/
- 
-  let current = 0;
-  function change(event){
-    if(current == 0){
-      event.value = "X";    
-      current = 1;
-      document.getElementById(event.id).disabled = true;
-    }
-    else{
-      event.value = "O";
-      document.getElementById(event.id).disabled = false;
-      current = 0 ;
-    }
-  }
+ // function to change  the  turn
+ const changeTurn = () => {
+    return turn === "x" ? "0" : "x" ; 
+
+ }
