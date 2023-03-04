@@ -19,7 +19,7 @@ let winningPattern = [
       $("#div1").empty();
     });
   });
-  /*element*/
+  /*element [0, 1, 2],*/
  
   let current = 0;
   function change(event){
@@ -30,7 +30,7 @@ let winningPattern = [
     }
     else{
       event.value = "O";
-      document.getElementById(event.id).disabled = true;
+      document.getElementById(event.id).disabled = false;
       current = 0 ;
     }
   }
